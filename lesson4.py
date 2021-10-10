@@ -1,3 +1,6 @@
+
+"""---------EXERCISE from lesson 4: Inheriatence ------------------------"""
+
 from random import randint
 
 class Person:
@@ -56,6 +59,6 @@ follower = randint(1,len(team_white))
 print(follower)
 
 team_white[follower].follow_hero(hero1)
-
-print(hero1.level)
-print(hero2.level)
+print()
+print(f"Level of Hero1: {hero1.level}")
+print(f"Level of Hero2: {hero2.level}")
